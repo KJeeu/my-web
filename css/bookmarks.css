@@ -1,0 +1,94 @@
+.bookmark_text {
+    text-align: center;
+    margin-top: 20px;
+
+    font-size: var(--font-size-box-title);
+    font-weight: var(--font-bold);
+}
+
+.bookmark_icon {
+    width: 256px;
+    height: 159px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* 상단 3개 */
+.google a {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/google.png");
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+.naver a {
+    position: absolute;
+    left: 550px;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/naver.png");
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+.youtube a {
+    position: absolute;
+    left: 642px;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/youtube.png") -1.2px;
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+/* 하단 3개 */
+.github a {
+    position: absolute;
+    top: 185px;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/github.png") -1.2px;
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+.tistory a {
+    position: absolute;
+    top: 185px;
+    left: 550px;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/tistory.png") -1.5px;
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+.chatgpt a {
+    position: absolute;
+    top: 185px;
+    left: 642px;
+    width: 68px;
+    height: 68px;
+    background: url("../img/icon/chatgpt.png") -1.5px;
+    background-size: cover;
+    box-shadow: -2px -2px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.15),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.05), inset -2px -2px 3px #ffffff;
+    border-radius: 16px;
+}
+
+.bookmark_icon a:hover {
+    transform: scale(1.1);
+    background-color: var(--color-white);
+}

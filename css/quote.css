@@ -1,0 +1,23 @@
+#quotes_list {
+    position: relative;
+    top: 20px;
+}
+
+#quotes {
+    display: flex;
+    width: 256px;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-weight: var(--font-normal);
+}
+
+#author {
+    display: flex;
+    width: 256px;
+    margin: auto;
+    justify-content: center;
+    font-size: var(--font-size-todo);
+    color: var(--color-bin);
+}

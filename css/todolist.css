@@ -1,0 +1,72 @@
+    /* <div class="todo_text">Todo</div>
+    <form id="todo_form">
+        <input type="text" id="todo_input" placeholder="Write a ToDo" autofocus required />
+    </form>
+    <ul id="todo_list"></ul>
+    span
+    button  */
+
+.todo_text {
+    width: 82px;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--color-main);
+
+    font-size: var(--font-size-box-title);
+    font-weight: var(--font-bold);
+}
+
+#todo_input {
+    width: 400px;
+    height: 45px;
+    margin: 30px 0 20px;
+    padding: 12px;
+
+    background: var(--color-white);
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25), inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border: none;
+    border-radius: 18px;
+}
+
+#todo_list {
+    width: 430px;
+    height: 440px;
+    overflow-y: auto;
+}
+
+
+#todo_list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 400px;
+    height: 45px;
+    padding: 12px;
+
+    background: var(--color-white);
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25), inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 18px;
+    margin-bottom: 20px;
+
+    color: black;
+}
+
+#todo_list button {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: var(--color-main);
+
+    background: var(--color-white);
+    border: none;
+    border-radius: 18px;
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25), inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+}
+
+#todo_list button:hover {
+    transform: scale(1.1);
+    color: var(--color-white);
+    background-color: var(--color-dark-main);
+    cursor: pointer;
+}

@@ -1,0 +1,226 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*가상 클래스 선택자 - 스타일 규칙 전역 스코프 제공으로 일관된 디자인 스타일 유지와 유지보수 용이성*/
+:root {
+    /* color */
+    --color-main: #81d9ff;
+    --color-dark-main: #4bbced;
+    --color-bg: rgb(242, 243, 247);
+    --color-white: #ffffff;
+    --color-light-grey: #cecece;
+    --color-dark-grey: #696969;
+    --color-bin: #878787;
+
+    /* font-family */
+    --font-main: 'Noto Sans KR', sans-serif;
+
+    /* font-size */
+    --font-size-title: 70px;
+    --font-size-box-title: 30px;
+    --font-size-box-small: 20px;
+    --font-size-todo: 14px;
+
+    /* font-weight */
+    --font-bold: 600;
+    --font-normal: 400;
+
+    /* space */
+    --padding-regular: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.dark {
+    color: white;
+    z-index: 1;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-main);
+    color: #333333ff;
+}
+
+.hidden {
+    display: none;
+}
+
+.bg_main {
+    position: fixed;
+    width: 1727px;
+    height: 1121px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    position: relative;
+    width: 1498px;
+    height: 932px;
+    left: 115px;
+    top: 92px;
+
+    background-color: rgba(242, 243, 247, 0.7);
+
+    box-shadow: 6px 10px 28px rgba(0, 0, 0, 0.1), -23px -15px 46px #ffffff;
+    border-radius: 70px;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    left: 249px;
+    top: 50px;
+}
+
+#login {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-bold);
+    font-size: var(--font-size-box-title);
+}
+
+#clock {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-bold);
+    font-size: var(--font-size-title);
+    text-shadow: -1px -1px 4px rgba(255, 255, 255, 0.5), 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#day_box {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 100px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    
+}
+
+.cal-show {
+    font-size: var(--font-size-box-title);
+    font-weight: var(--font-bold);
+}
+
+.cal-show-text {
+    font-size: var(--font-size-box-small);
+    color: var(--color-dark-grey);
+}
+
+.cal_line {
+    border-bottom: 1px solid var(--color-main);
+    margin: 5px;
+    width: 70%;
+}
+
+/* 박스 5개 */
+
+.sub_box {
+    position: relative;
+    width: 1300px;
+    height: 630px;
+    left: 100px;
+    top: 220px;
+}
+
+.left_top_side_box {
+    display: flex;
+    width: 760px;
+    margin-right: 60px;
+}
+
+#play_game {
+    display: inline-block;
+    width: 351px;
+    height: 300px;
+    margin-right: 56px;
+
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 50px;
+}
+
+#bookmark {
+    display: inline-block;
+    width: 351px;
+    height: 300px;
+
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 50px;
+}
+
+.left_bottom_side_box {
+    display: flex;
+    width: 760px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+#timer {
+    display: inline-block;
+    width: 351px;
+    height: 300px;
+    margin-right: 56px;
+
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 50px;
+}
+
+#quote {
+    display: inline-block;
+    width: 351px;
+    height: 300px;
+
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 50px;
+}
+
+.todolist_box {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    width: 512px;
+    height: 630px;
+    left: 800px;
+    padding-left: 41px;
+
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    border-radius: 50px;
+}
+
+#bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}

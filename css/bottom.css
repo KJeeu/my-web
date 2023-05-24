@@ -1,0 +1,33 @@
+.bottom {
+    display: flex;
+    position: relative;
+    left: 1200px;
+    top: 250px;
+}
+
+#logout {
+    color: var(--color-dark-grey);
+    margin-right: 25px;
+}
+
+#logout:hover {
+    cursor: pointer;
+    color: var(--color-main);
+}
+
+#mode {
+    color: var(--color-dark-grey);
+}
+
+#mode:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#mode.right:hover {
+    color: white;
+}
+
+.mode_sun {
+    display: none;
+}
