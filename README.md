@@ -31,31 +31,31 @@ My Web를 통해 사용자가 타이머, 테트리스게임, 체크리스트를 
 ### **- Demo**
 ---
 ### 1. 닉네임 입력(로그인)
-<img src="readme/gif/login.gif" alt="로그인" width= 80%/>
+<img src="readme/gif/login.gif" alt="로그인"/>
 <br><br>
 
 ### 2. 다크모드, 라이트모드
-<img src="readme/gif/mode.gif" alt="모드설정" width= 80%/>
+<img src="readme/gif/mode.gif" alt="모드설정"/>
 
 매번 배경이 랜덤으로 생성
 <br><br>
 
 ### 3. 테트리스 게임, 타이머 (시간설정, 스톱, 리셋)
-<img src="readme/gif/tetrisGame.gif" alt="테트리스" width= 40%/>
-<img src="readme/gif/timer.gif" alt="타이머" width= 40%/>
+<img src="readme/gif/tetrisGame.gif" alt="테트리스" />
+<img src="readme/gif/timer.gif" alt="타이머"/>
 
 <br><br>
 
 ### 5. 북마크 (해당 사이트로 이동)
-<img src="readme/gif/bookmarks.gif" alt="북마크" width= 80%/>
+<img src="readme/gif/bookmarks.gif" alt="북마크"/>
 <br><br>
 
 ### 6. 투두리스트 (추가, 삭제)
-<img src="readme/gif/todolist.gif" alt="투두리스트" width= 40%/>
+<img src="readme/gif/todolist.gif" alt="투두리스트"/>
 <br><br>
 
 ### 7. 로그아웃
-<img src="readme/gif/logout.gif" alt="로그아웃" width= 80%/>
+<img src="readme/gif/logout.gif" alt="로그아웃"/>
 
 
 <br>
