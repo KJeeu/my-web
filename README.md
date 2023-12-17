@@ -77,7 +77,7 @@ function deleteToDo(event) {
 그래서
 ```javascript
 function deleteToDo(event) {
-    let li = event.target.parentElement;
+    let li = event.currentTarget.parentElement;
     li.remove();
     toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
     saveToDos();
